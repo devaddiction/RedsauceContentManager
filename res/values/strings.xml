@@ -7,6 +7,6 @@
     <string name="user">User</string>
     <string name="menu_settings">Settings</string>
     
-    <string name="rslogo">Redsauce Logo</string>
+    <string name="rslogo">Redsauce_Logo</string>
 
 </resources>
