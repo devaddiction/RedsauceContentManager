@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Redsauce Content Manager</string>
+    <string name="login">Login</string>
+    <string name="password">Contraseña</string>
+    <string name="user">Usuario</string>
+    <string name="menu_settings">Ajustes</string>
+    
+    <string name="rslogo">Redsauce_Logo</string>
+
+</resources>
