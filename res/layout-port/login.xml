@@ -15,7 +15,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="13dp"
         android:ems="10"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:hint="@string/enterPassword" />
 
     <TextView
         android:id="@+id/textView2"
@@ -34,7 +35,8 @@
         android:layout_alignLeft="@+id/editText1"
         android:layout_centerVertical="true"
         android:ems="10"
-        android:inputType="textEmailAddress" />
+        android:inputType="textEmailAddress"
+        android:hint="@string/enterEmail" />
 
     <TextView
         android:id="@+id/textView1"

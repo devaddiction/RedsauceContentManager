@@ -8,5 +8,7 @@
     <string name="menu_settings">Settings</string>
     <string name="menu_connections">Connections</string>
     <string name="rslogo">Redsauce_Logo</string>
+    <string name="enterEmail">Enter your e-mail</string>
+    <string name="enterPassword">Enter your password</string>
 
 </resources>
