@@ -8,10 +8,10 @@
     tools:context=".MainActivity" >
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/password"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView2"
+        android:layout_below="@+id/label_password"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="13dp"
         android:ems="10"
@@ -19,46 +19,46 @@
         android:hint="@string/enterPassword" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/label_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText2"
+        android:layout_below="@+id/username"
         android:layout_marginTop="33dp"
-        android:layout_toLeftOf="@+id/button1"
+        android:layout_toLeftOf="@+id/login_button"
         android:text="@string/password"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/username"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignLeft="@+id/password"
         android:layout_centerVertical="true"
         android:ems="10"
         android:inputType="textEmailAddress"
         android:hint="@string/enterEmail" />
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/label_username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/editText2"
-        android:layout_alignLeft="@+id/textView2"
+        android:layout_above="@+id/username"
+        android:layout_alignLeft="@+id/label_password"
         android:layout_marginBottom="12dp"
         android:text="@string/user"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/login_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText1"
+        android:layout_below="@+id/password"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="37dp"
         android:text="@string/login" />
 
     <ImageView
-        android:id="@+id/imageView1"
+        android:id="@+id/redsauce_logo"
         android:layout_width="180dp"
         android:layout_height="180dp"
         android:layout_alignParentTop="true"
